@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+.top-header {
+  background-color: #b7c623;
+  height: 30px; }
+
+#body {
+  background-color: #f8f9e1;
+  font-family: 'Roboto Slab', serif; }
+
+.header {
+  background-color: #f3f2f2; }
+
+#socialmedia {
+  text-align: right; }
+  #socialmedia ul li {
+    display: inline;
+    margin-right: 10px; }
+    #socialmedia ul li a {
+      color: #fff; }
+
+.navigation {
+  border: 1px solid #eef;
+  background-color: #fff; }
+  .navigation nav ul li {
+    display: inline;
+    margin-left: 40px;
+    line-height: 45px;
+    float: left; }
+    .navigation nav ul li a {
+      color: #7e4d1d;
+      text-transform: uppercase; }
+  .navigation nav ul li:last-child {
+    background-color: #b7c623; }
+    .navigation nav ul li:last-child a {
+      color: #fff;
+      padding: 0 5px; }
+
+.footer {
+  padding-bottom: 20px; }
+
+.footer1 {
+  border: 1px solid #eef;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  height: 160px;
+  background-color: #fff;
+  margin-bottom: 20px; }
+  .footer1 ul {
+    list-style: none;
+    margin-top: 40px; }
+    .footer1 ul li {
+      display: inline;
+      margin-right: 10px; }
+      .footer1 ul li a {
+        color: #b7c623; }
+
+#subscribe-form h2 {
+  color: #7e4d1d;
+  font-weight: 300;
+  font-size: 1.3em; }
+
+#subscribe-form p {
+  color: #b7c623;
+  font-size: 0.9em; }
+
+#subscribe-form input[type=text] {
+  background-color: #c9d168;
+  color: #fff;
+  border: 1px solid #7e4d1d;
+  padding: 10px;
+  width: 70%;
+  float: left;
+  margin-right: 10px; }
+
+#front-button {
+  radius: 5px;
+  background-color: #b7c623;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  /* margin-left: 22px; */
+  /* float: left; */
+  border-radius: 5px; }
+
+#address {
+  font-size: 0.9em;
+  color: #b7c623; }
+
+.bottom-footer {
+  background-color: #fff;
+  color: #b7c623; }
+
+#footer-nav ul {
+  margin-top: 40px;
+  padding-left: 40px; }
+  #footer-nav ul li a {
+    color: #b7c623; }
+
+.slider {
+  text-align: center; }
+
+.catering-font {
+  font-weight: 300;
+  font-size: 1.7em;
+  color: #b7c623;
+  margin-top: 20px; }
+
+#slide1 {
+  float: left;
+  width: 50%; }
+  #slide1 img {
+    width: 480px; }
+
+#slide2 {
+  float: right;
+  width: 50%; }
+
+#slider {
+  margin-top: 20px;
+  background-color: #b7c623;
+  border: 1px solid #eef; }
+
+#lunch-special-1, #lunch-special-2 {
+  position: relative;
+  background-color: #b7c623;
+  color: #fff;
+  padding: 10px;
+  _height: 160px;
+  margin-bottom: 20px;
+  height: 150px; }
+  #lunch-special-1 h2, #lunch-special-2 h2 {
+    color: #fff;
+    font-size: 1.3em;
+    text-align: center; }
+  #lunch-special-1 p, #lunch-special-2 p {
+    text-align: center; }
+  #lunch-special-1 ul li, #lunch-special-2 ul li {
+    display: list-item;
+    list-style: square;
+    float: left;
+    list-style-position: outside; }
+
+ul#nav1 {
+  margin-left: 20px; }
+  ul#nav1 li {
+    margin-left: 24px; }
+
+ul#nav2 {
+  margin-left: 5px; }
+  ul#nav2 li {
+    margin-left: 24px; }
+
+#lunch-special-2 {
+  margin-left: 5px; }
+
+#price {
+  padding: 5px; }
+
+#front-menus {
+  border: 8px solid #dde23e;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+  #front-menus h1 {
+    text-align: center;
+    color: #b7c623;
+    font-size: 24px;
+    font-weight: 400;
+    _text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+  #front-menus img {
+    margin-left: -16px; }
+
+#menu-button {
+  background-color: #dde23e;
+  position: absolute;
+  right: 0;
+  color: #b7c623;
+  bottom: 0;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+
+#front-image-box {
+  border: 8px solid #b7c623;
+  background-color: #fff;
+  margin-top: 20px;
+  height: 400px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+  #front-image-box img {
+    width: 300px;
+    margin-top: 120px; }
+  #front-image-box h1 {
+    color: #b7c623;
+    font-size: 2.4em;
+    text-align: center;
+    text-transform: uppercase; }
+
+ul.flex-direction-nav li {
+  top: -200px; }
+
+#tacos img {
+  margin-top: 80px; }
+
+#second-main {
+  margin-left: 40px; }
+
+#top-menus h2 {
+  font-size: 60px; }
+
+#product li {
+  _background: #fff;
+  background-repeat: no-repeat;
+  /* background-position: left bottom; */
+  border-top: 2px solid #ddd;
+  display: block;
+  width: 100%;
+  padding: 125px 0 100px 0;
+  list-style: none; }
+  #product li h1 {
+    display: block;
+    text-align: center;
+    z-index: 99;
+    margin: 0 auto;
+    /* display: none; */
+    color: #b5bf35;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px white; }
+    #product li h1 a {
+      color: #b7c623; }

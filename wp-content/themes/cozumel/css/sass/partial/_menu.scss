@@ -1,0 +1,38 @@
+#top-menus h2 {
+	font-size: 60px;
+}
+
+#product li {
+	_background: #fff;
+    background-repeat: no-repeat;
+    /* background-position: left bottom; */
+    border-top: 2px solid #ddd;
+    display: block;
+    width: 100%;
+    padding: 125px 0 100px 0;
+    list-style: none;
+    
+
+    h1 {
+    display: block;
+    text-align: center;
+   
+    z-index: 99;
+    margin: 0 auto;
+    /* display: none; */
+    color: #b5bf35;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px white;
+    
+    	a {
+    	 color:$fourcolor;
+    	}
+
+
+    }
+}

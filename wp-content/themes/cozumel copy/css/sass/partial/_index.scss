@@ -1,0 +1,136 @@
+.slider {
+	text-align: center;
+	
+}
+.catering-font {
+	font-weight: 300;
+	font-size: 1.7em;
+	color: $primarycolor;
+	margin-top: 20px;
+
+}
+
+#slide1 {
+	float:left;
+	width: 50%;
+	img {
+	width:480px;
+	}	
+}
+#slide2{
+	float:right;
+	width: 50%;
+	img {
+
+	}
+}
+#slider {
+	margin-top: 20px;
+    background-color: $primarycolor; 
+	border:1px solid #eef;
+}
+
+
+#lunch-special-1 {
+	position:relative;
+	background-color: $primarycolor;
+	color:#fff;
+	padding:10px;
+	_height:160px;
+	margin-bottom:20px;
+	height:150px;
+		
+	h2 {
+	 color: #fff;
+	 font-size: 1.3em;
+	 text-align:center;
+	}
+	p {
+		text-align:center;
+	}
+   ul li {
+    display: list-item;
+    list-style: square;
+    float: left;
+    list-style-position: outside;
+    
+   }
+
+}
+
+ul#nav1 {
+  margin-left:20px;
+
+  li {
+  margin-left:24px;
+  }
+}
+ul#nav2 {
+	 margin-left:5px;
+
+  li {
+  margin-left:24px;
+  }
+}
+
+#lunch-special-2 {
+	@extend #lunch-special-1;
+	margin-left:5px;
+	
+}
+#price {
+	padding:5px;
+}
+
+#front-menus {
+	border: 8px solid #dde23e;
+	background-color:#fff;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+	h1 {
+	text-align: center;
+	color:$fourcolor;
+	font-size: 24px;
+    font-weight: 400;
+    _text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+	}
+	img {
+		margin-left: -16px;
+	}
+}
+#menu-button {
+	background-color:#dde23e;
+	position: absolute;
+    right: 0;
+    color:$fourcolor;
+    bottom: 0;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+#front-image-box {
+	border: 8px solid $primarycolor;
+	background-color: #fff;
+	margin-top:20px;
+	height:400px;
+	overflow:hidden;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+	img {
+		width: 300px;
+		margin-top: 120px;
+	}
+	h1 {
+		color: $fourcolor;
+		font-size: 2.4em;
+		text-align:center;
+		text-transform:uppercase;
+	}
+}
+ul.flex-direction-nav li {
+	    top: -200px;
+}
+#tacos img {
+	margin-top:80px;
+}
+
+#second-main {
+	margin-left: 40px;
+}

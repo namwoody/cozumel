@@ -1,0 +1,28 @@
+.top-header {
+	background-color: $fourcolor;
+	height: 30px;
+}
+#body {
+	background-color:#f8f9e1;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.header {
+	background-color:$thirdcolor;
+
+}
+
+#socialmedia {
+	text-align:right;    
+
+	 ul li {
+		display: inline;
+	    margin-right: 10px;
+
+	    a {
+	    	color: #fff;
+	    }
+	}
+
+}

@@ -38,7 +38,7 @@
 						</ul>
 					</div>
 					<div class="col-md-6">
-						<?php echo do_shortcode( '[contact-form-7 id="37" title="Contact form 1"]' ); ?>
+					
 					</div>	
 
 				</div>

@@ -1,6 +1,6 @@
 <?php
 /**
- *  Template Name: Menus Template 
+ *  Template Name: Catering Template 
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -25,7 +25,10 @@
 		<h2>Catering</h2>
 
 		<div class="col-md-5">
-			
+			CALL AJ
+for catering
+212-445-1009
+info@cozumeltortilla.com		
 		</div>
 
 		<div class="col-md-7">

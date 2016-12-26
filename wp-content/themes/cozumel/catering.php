@@ -25,14 +25,14 @@
 		<h2>Catering</h2>
 
 		<div class="col-md-5">
-			CALL AJ
-for catering
-212-445-1009
-info@cozumeltortilla.com		
+			<h2>CALL A J </h2>
+			<p>for catering
+			212-445-1009
+			info@cozumeltortilla.com</p>		
 		</div>
 
 		<div class="col-md-7">
-			
+			<?php echo do_shortcode([contact-form-7 id="37" title="Contact form 1"]); ?>
 		</div>
 	</div>
 </div>

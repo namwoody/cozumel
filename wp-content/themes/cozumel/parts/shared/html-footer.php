@@ -32,13 +32,18 @@
 		<div class="row">
 			<div class="col-md-7">
 				<div class="row">
-					<div class="col-md-6" id="footer-nav">	
+					<div class="col-md-5" id="footer-nav">	
 						<ul>
 							<?php wp_list_pages('title_li='); ?>
 						</ul>
 					</div>
-					<div class="col-md-6">
-					
+					<div class="col-md-6" id="deal">
+						<img src="<?php bloginfo('template_directory'); ?>/images/img/cozumel-deal.png " alt="cozumel deal" width="220px">
+						<p class="deal-box">
+							ADD A SMALL DRINK <br />
+							AND A COOKIE OR BROWNIE<br />
+							<span>$2.99</span>
+						</p>
 					</div>	
 
 				</div>

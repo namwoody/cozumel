@@ -96,6 +96,20 @@
   #footer-nav ul li a {
     color: #b7c623; }
 
+#deal img {
+  margin-left: 20px; }
+
+#deal p {
+  border: 2px solid #ef6a0f;
+  padding: 10px;
+  color: #7d4c23;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center; }
+  #deal p span {
+    color: #ef6a0f;
+    font-size: 40px; }
+
 .slider {
   text-align: center; }
 
